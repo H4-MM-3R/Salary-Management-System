@@ -8,9 +8,9 @@ public interface EmployeeService {
 
   List<Employee> getAllEmployees();
 
-  boolean deletedEmployee(Long id);
+  boolean deleteEmployee(long id);
 
-  Employee getEmployeeById(long id);
+  Employee getEmployeeById(Long id);
 
   Employee updateEmployee(Long id, Employee employee);
 }
